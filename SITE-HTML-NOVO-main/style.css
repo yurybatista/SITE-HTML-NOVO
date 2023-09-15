@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(216, 172, 118);
+}
+
+.principal {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 2px 4px rgba(143, 29, 29, 0.966); /* Substitua os valores red, green, blue e alpha pelos valores desejados */
+    background-color: #140b5f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cabecalho {
+    height: 20%;
+    width: 95%;
+    padding: 20px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: #db7171 solid; /* Substitua pela cor desejada com seis dígitos hexadecimais */
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-shadow: 2px 4px rgba(255, 0, 0, 0.5); /* Substitua os valores red, green, blue e alpha pelos valores desejados */
+    color: #dd9a26;
+}
+
+.secao1 {
+    padding: 2px;
+    font-size: 14pt;
+    text-align: center;
+}
